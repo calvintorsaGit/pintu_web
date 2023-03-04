@@ -4,12 +4,12 @@ import axios from "axios";
 import TokenListComponent from "./TokenList.component";
 
 const fetchSupportedCurrencies = async () => {
-    const {data} = await axios.get('https://api.pintu.co.id/v2/wallet/supportedCurrencies')
+    const {data} = await axios.get('/wallet/supportedCurrencies')
     return data
 }
 
 const fetchPriceChanges = async () => {
-    const {data} = await axios.get('https://api.pintu.co.id/v2/trade/price-changes')
+    const {data} = await axios.get('/trade/price-changes')
     return data
 }
 
