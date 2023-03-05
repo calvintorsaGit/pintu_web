@@ -9,7 +9,7 @@ const fetchSupportedCurrencies = async () => {
 }
 
 const fetchPriceChanges = async () => {
-    const {data} = await axios.get('https://cors-anywhere.herokuapp.com/https://api.pintu.co.id/v2/wallet/supportedCurrencies')
+    const {data} = await axios.get('https://cors-anywhere.herokuapp.com/https://api.pintu.co.id/v2/trade/price-changes')
     return data
 }
 
