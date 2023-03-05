@@ -4,12 +4,12 @@ import axios from "axios";
 import TokenListComponent from "./TokenList.component";
 
 const fetchSupportedCurrencies = async () => {
-    const {data} = await axios.get('/wallet/supportedCurrencies')
+    const {data} = await axios.get('https://cors-anywhere.herokuapp.com/https://api.pintu.co.id/v2/wallet/supportedCurrencies')
     return data
 }
 
 const fetchPriceChanges = async () => {
-    const {data} = await axios.get('/trade/price-changes')
+    const {data} = await axios.get('https://cors-anywhere.herokuapp.com/https://api.pintu.co.id/v2/wallet/supportedCurrencies')
     return data
 }
 
