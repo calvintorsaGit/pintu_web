@@ -3,7 +3,7 @@ import React from "react";
 import 'semantic-ui-css/semantic.min.css'
 
 import PageMarketHeader from "./Component/PageMarketHeader/PageMarketHeader.component";
-import TopMover from "./Component/TopMover.component";
+import TopMover from "./Component/TopMover/TopMover.component";
 import TokenList from "./Container/TokenList/TokenList.container";
 
 function App() {

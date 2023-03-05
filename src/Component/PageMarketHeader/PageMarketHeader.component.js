@@ -1,4 +1,5 @@
 import {Search} from 'semantic-ui-react'
+import React from "react";
 
 const PageMarketHeader = () => {
     return <div class='flex flex-row mt-4'>
